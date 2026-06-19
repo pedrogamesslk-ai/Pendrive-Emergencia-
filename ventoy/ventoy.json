@@ -1,0 +1,10 @@
+{
+    "control":[
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_MENU_LANGUAGE": "pt_BR" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISOs" }
+    ],
+    "theme":{
+        "display_mode": "CLI"
+    }
+}

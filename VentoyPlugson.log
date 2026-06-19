@@ -1,0 +1,11 @@
+[2026/06/18 03:08:47] SetCurrentDirectoryA 1 <F:\>
+[2026/06/18 03:08:47] CurDir=<F:\>
+[2026/06/18 03:08:47] Create ventoy directory success.
+[2026/06/18 03:14:08] ventoy disk exit ...
+[2026/06/18 03:15:31] SetCurrentDirectoryA 1 <F:\>
+[2026/06/18 03:15:31] CurDir=<F:\>
+[2026/06/18 03:15:31] ventoy directory already exist, check case sensitive.
+[2026/06/18 03:15:31] ventoy_path_case actual path is <ventoy> <count:0>
+[2026/06/18 03:15:31] parse ventoy.json success
+[2026/06/18 03:15:31] json parse <control>
+[2026/06/18 03:15:51] ventoy disk exit ...

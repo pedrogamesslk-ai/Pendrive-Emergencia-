@@ -1,0 +1,82 @@
+GUIA DE INSTALAÇÃO DE SISTEMAS USANDO VENTOY (UEFI)
+
+1. REQUISITOS
+
+- Computador com suporte a boot UEFI
+- Acesso à BIOS/Boot Menu do computador
+
+ANTES DE COMEÇAR
+
+Tambem olhe se seu modo de BIOS esta como UEFI apenas indo no menu iniciar e pesquisando "Informações do sistema".
+
+2. INICIANDO PELO DISPOSITIVO
+
+1. Conecte o HD externo ao computador. (De Preferencia Quando o Computador Estiver Ligado)
+
+2. Ligue o computador e imediatamente comece a pressionar repetidamente uma das seguintes teclas para acessar o Boot Menu ou BIOS:
+   - DEL
+   - F12
+   - ESC
+   - F9
+   - F10
+
+   IMPORTANTE: isso deve ser feito durante o processo de inicialização. Se o sistema operacional iniciar, reinicie e tente novamente.
+
+3. No Boot Menu, selecione a opção UEFI referente ao HD externo.
+
+4. Se não aparecer diretamente, entre na BIOS e ajuste as opções de boot.
+
+5. Dentro da BIOS, vá até a aba "Boot" e procure por "Windows Boot Manager".
+
+6. Ajuste a ordem de boot para priorizar o dispositivo UEFI correspondente ao HD externo.
+
+7. Ainda na BIOS, vá até a aba "Security" e desative a opção "Secure Boot" para evitar problemas de compatibilidade com ISOs.
+
+8. Após realizar as alterações:
+   - Vá até "Save & Exit"
+   - Pressione Enter
+   - Confirme a ação selecionando "Yes" ou "OK"
+
+9. O computador irá reiniciar.
+
+10. O sistema deve iniciar pelo HD externo e carregar o menu do Ventoy.
+
+3. USO DO VENTOY
+
+1. No menu inicial, serão exibidas as ISOs disponíveis no HD externo.
+2. Use as setas do teclado para selecionar a ISO desejada.
+3. Pressione Enter para iniciar o sistema.
+
+4. INSTALAÇÃO DO WINDOWS
+
+1. Inicie a ISO do Windows.
+2. Escolha idioma, formato de hora e teclado.
+3. Clique em "Instalar agora".
+4. Caso solicitado, selecione "Não tenho chave de produto".
+5. Escolha a edição do Windows.
+6. Selecione "Instalação personalizada (avançado)".
+7. Na tela de discos:
+   - Para instalação limpa, exclua todas as partições do disco alvo.
+   - Selecione o espaço não alocado.
+   - Clique em "Avançar".
+8. O instalador criará automaticamente as partições em modo UEFI (GPT).
+9. Aguarde a instalação ser concluída e o sistema reiniciar.
+
+5. INSTALAÇÃO DE LINUX (UBUNTU, MINT E OUTROS)
+
+1. Inicie a ISO do Linux pelo Ventoy.
+2. Selecione "Install" ou "Instalar".
+3. Configure idioma e teclado.
+4. Conecte à internet (opcional).
+5. Escolha o tipo de instalação:
+   - Automática: "Apagar disco e instalar"
+   - Manual: "Algo mais" (particionamento avançado)
+6. Confirme a instalação.
+7. O sistema será instalado com boot UEFI automaticamente.
+
+6. CONFIGURAÇÃO UEFI
+
+- O modo UEFI deve estar ativado na BIOS.
+- O disco de instalação deve estar em formato GPT.
+- Secure Boot pode precisar ser desativado dependendo da ISO.
+- Evitar modo Legacy/CSM quando possível.
