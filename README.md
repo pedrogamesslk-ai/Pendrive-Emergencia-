@@ -1,6 +1,6 @@
-# Kit de Sobrevivência para PC
+# Pendrive Emergencia
 
-Um kit de emergência desenvolvido para manutenção, recuperação, diagnóstico e reinstalação de sistemas operacionais.
+Um Pendrive Emergencia para manutenção, recuperação, diagnóstico e reinstalação de sistemas operacionais.
 
 O objetivo deste projeto é reunir em um único local as principais ferramentas que podem ser necessárias quando um computador apresenta problemas ou precisa ser formatado.
 
