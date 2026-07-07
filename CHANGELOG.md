@@ -7,8 +7,9 @@ Todas as mudanças importantes deste projeto serão documentadas aqui.
 ## v1.1 - Em desenvolvimento
 
 ### Adicionado
-- Pasta "REMOCAO DE VIRUS"
-- Kaspersky Rescue Disk
+
+- Pasta "Remoção De Virus"
+- [Kaspersky Rescue Disk](https://www.kaspersky.com.br/downloads/free-rescue-disk)
 - Ferramentas de segurança
 - Melhorias na documentação
 
