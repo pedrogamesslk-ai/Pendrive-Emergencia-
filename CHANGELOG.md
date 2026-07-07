@@ -17,12 +17,9 @@ Na pasta `Debloats` Contem
 
 ```text
 📁Debloat/
-├── 📁 Windows/
-│   ├── Windows10-Debloat.iso
-│   └── Windows11-Debloat.iso
-└── 📁 Linux/
-    ├── LinuxMint-Debloat.iso
-    └── LinuxUbuntu-Debloat.iso
+└── 📁 Windows/
+    ├── Windows10-Debloat.iso
+    ├── Windows11-Debloat.iso
 ```
 
 ---
